@@ -1,6 +1,18 @@
 # TrackYourBudget
 
 ## Desctiption
+The purpose of this assignment was to add functionality to the already existing Budget Tracker application. The program should allow for offline access and functionality, meaning that the user should be able to add expenses and deposits to their budget with or without connection. When the application is brought back online, then the offline entries should be added to their tracker. Below, you'll find a quick checklist as to what the User story was and what were the Accepted Criteria:
+
+```
+AS AN avid traveller
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling
+
+
+GIVEN a user is on Budget App without an internet connection
+WHEN the user inputs a withdrawal or deposit
+THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+```
 
 ## Table of Contents
 
@@ -14,7 +26,7 @@
 ## Installation
 To install this program, make sure to be in your Terminal and be in the right folder to download the applicaiton. Then, run this comand:
 ```bash
-git clone git@github.com:ucruz2025/EmployeeTracker.git
+git clone git@github.com:ucruz2025/TrackYourBudget.git
 ```
 
 ## Usage
@@ -22,14 +34,13 @@ You'll need to install the dependencies first to ensure the application will be 
 ```bash
 npm install
 ```
-Then, under the 'db' folder, there is a seed.sql file that you can copy and paste into your MySQL application. Make sure that when you're about to run the application to add your password for MySQL under the config document or else the application won't connect with MySQL. Then, your seeded data can be used for the application. 
 
 To start using the program, just run the following command in your terminal and the program will be active:
 ```bash
 npm start
 ```
 
-Then the program will prompt you some questions regarding what you want to do with your employees. From here, you can continue to click through the program and do whatever the program prompts. To exit, make sure to press 'Enter' on the Quit choice.
+Then, on any browswer type 'localhost:3000' and you'll be redirected to the application. There you can either add or subtract funds through the entry fields located at the top of the webpage. You can also go offline and still have the same functionality.
 
 ## Contributing
 Contribution details can be found under the license section of this file.
